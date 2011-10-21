@@ -1,0 +1,25 @@
+<header>
+    <div id='logo'>
+		<%=link_to(image_tag("logo.png"), root_path)%>
+    </div>
+    <nav>
+        <ul>
+            <li class="menu-oque"><%=link_to(image_tag("menu-oque.png"), oque_e_index_path)%></li>
+            <li class="menu-empresa"><%=link_to(image_tag("menu-empresa.png"), empresa_index_path)%></li>
+            <li class="menu-servicos"><%=link_to(image_tag("menu-servicos.png"), servicos_path)%></li>
+            <li class="menu-contato"><%=link_to(image_tag("menu-contato.png"), contato_index_path)%></li>
+        </ul>
+        <div id='menu-oque-over' class="hide">
+        	<%=link_to(image_tag("menu-oque-hover.png"), oque_e_index_path)%>
+        </div>
+        <div id='menu-empresa-over' class="hide">
+			<%=link_to(image_tag("menu-empresa-hover.png"), empresa_index_path)%>
+        </div>
+        <div id='menu-servicos-over' class="hide">
+			<%=link_to(image_tag("menu-servicos-hover.png"), servicos_path)%>
+        </div>
+        <div id='menu-contato-over' class="hide">
+			<%=link_to(image_tag("menu-contato-hover.png"), contato_index_path)%>
+        </div>
+    </nav>
+</header>

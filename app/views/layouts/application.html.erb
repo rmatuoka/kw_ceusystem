@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-br"
+<head>
+	<meta charset="utf-8">
+	<title>Ceu System : Cloud Solution <%=yield :title%></title>
+  	<script src="http://code.jquery.com/jquery-1.6.4.js"></script>
+	<%= javascript_include_tag "html5.js" %>
+	<script src="http://www.modernizr.com/downloads/modernizr-2.0.6.js"></script>
+	
+	<%= stylesheet_link_tag "style" %>
+	<!--[if IE 8]>
+			<%= stylesheet_link_tag "ie8" %>
+	        <link href="css/ie8.css" rel="stylesheet" type"text/css" media="all">
+	<![endif]-->
+	<%= csrf_meta_tag %>
+
+	 <%=yield :head%>
+</head>
+<body>
+	<section>
+    	<%=render :file => "/layouts/_header.html.erb"%>
+        
+        <%= yield %>
+        
+        <%=render :file => "/layouts/_footer.html.erb"%>
+    </section>
+</body>
+</html>

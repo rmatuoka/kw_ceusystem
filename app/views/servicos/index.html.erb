@@ -1,0 +1,69 @@
+<%content_for :title do%>
+	- Conheça os nossos serviços
+<%end%>
+
+<%content_for :head do%>
+	<%= stylesheet_link_tag "servicos" %>
+	<%= stylesheet_link_tag "ie9" %>
+	<script type="text/javascript"> 
+		$(document).ready(function() {
+			$('.menu-oque').mouseenter(function() {
+				$('#menu-oque-over').fadeToggle("fast", "linear").removeClass("hide");})
+				$('#menu-oque-over').mouseleave(function(){
+				$('#menu-oque-over').fadeToggle("fast", "linear").addClass("hide");
+			})
+
+			$('.menu-empresa').mouseenter(function() {
+				$('#menu-empresa-over').fadeToggle("fast", "linear").removeClass("hide");})
+				$('#menu-empresa-over').mouseleave(function(){
+				$('#menu-empresa-over').fadeToggle("fast", "linear").addClass("hide");
+			})
+
+			$('#menu-servicos-over').removeClass("hide");
+
+			$('.menu-contato').mouseenter(function() {
+				$('#menu-contato-over').fadeToggle("fast", "linear").removeClass("hide");})
+				$('#menu-contato-over').mouseleave(function(){
+				$('#menu-contato-over').fadeToggle("fast", "linear").addClass("hide");
+			})
+		})
+	</script>
+<%end%>
+<article>
+	<div id='tit-servicos'>
+    	<img src="images/tit-servicos.png" border="0">
+    </div>
+    <div id='txt-servicos'>
+    		<p>A <b>Ceu System</b> oferece uma série de opções para melhorar a integração e realização de tarefas em sua empresa utilizando a computação nas nuvens de forma fácil e prática.</p>
+
+<p>Trabalhando com a tecnologia dos produtos <b>Microsoft</b>, a adaptação às ferramentas se torna mais fácil pela interface semelhante aos softwares já conhecidos, e cada ferramenta permite que você desempenhe suas atividades do dia a dia, como serviço de e-mail e compartilhamento de projetos, de forma integrada. Tudo sem a necessidade de longas instalações</p>
+    </div>
+    <div id='box-servicos1'>
+    	<div id='txt-box-servicos1'>
+        	<p>Os serviços Ceu System estão sustentados em três pilares:</p>
+        </div>
+        <div id='txt-box-servicos2'>
+        	<p><b>Simplicidade:</b> com sistemas de interfaces ricas e interativas, de fácil aprendizado e utilização.</p>
+        </div>
+        <div id='txt-box-servicos3'>
+        	<p><b>Disponibilidade:</b> com recursos de acesso global e acessibilidade disponível para computadores e dispositivos.</p>
+        </div>
+        <div id='txt-box-servicos4'>
+        	<p><b>Elasticidade:</b>  pela possibilidade de crescimento ou redução na estrutura e pela flexibilidade de mudança de acordo com a necessidade da empresa.</p>
+        </div>
+    </div>
+    <div id='box-servicos2'>
+    	<p>Há, dentro da área de cloud, uma subdivisão que representa um conjunto de softwares hospedados na nuvem e que são responsáveis pelo fornecimento de soluções voltadas diretamente aos clientes finais para que eles possam acessar aplicações em vez de adquirir licenças e serviços. Essa subdivisão é conhecida como <b>SaaS</b>.</p>
+    </div>
+    <div id='box-office'>
+		<%=link_to(image_tag("img-servicos1.png"), office365_servicos_path)%>
+    </div>
+</article>
+<aside>
+	<div id='box-servicos3'>
+		<%=link_to(image_tag("img-servicos2.png"), oque_e_index_path)%>
+    </div>
+    <div id='box-servicos4'>
+		<%=link_to(image_tag("img-servicos3.png"), contato_index_path)%>
+    </div>
+</aside>

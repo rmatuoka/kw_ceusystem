@@ -1,0 +1,118 @@
+article{
+	position:relative;
+	top:200px;
+	text-align:left;
+	width:640px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFFFFF;
+	}
+
+article b{
+	font-weight:bold;
+	color:#152123;
+	}
+
+#box-servicos1{
+	position:relative;
+	background-image:url('../images/bg-servicos1.png');
+	background-repeat:no-repeat;
+	width:605px;
+	height:379px;
+	left:25px;
+	top:50px;
+	}
+
+#txt-box-servicos1{
+	position:relative;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:bold;
+	text-shadow:0px 5px 9px #000000;
+	text-align:center;
+	width:300px;
+	left:165px;
+	top:13px;
+	filter: Shadow(Color=#000000, 	
+			Direction=135, 
+			Strength=3);
+	}
+
+#txt-box-servicos2{
+	position:relative;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFFFFF;
+	font-size:14px;
+	line-height:20px;
+	left:95px;
+	top:38px;
+	letter-spacing:2px;
+	width:500px;
+	}
+
+#txt-box-servicos3{
+	position:relative;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFFFFF;
+	font-size:14px;
+	line-height:20px;
+	left:124px;
+	top:72px;
+	letter-spacing:2px;
+	width:470px;
+	}
+
+#txt-box-servicos4{
+	position:relative;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFFFFF;
+	font-size:14px;
+	line-height:20px;
+	left:134px;
+	top:89px;
+	letter-spacing:2px;
+	width:440px;
+	}
+
+#box-servicos2{
+	position:relative;
+	background-image:url('../images/bg-servicos2.png');
+	background-repeat:no-repeat;
+	width:596px;
+	height:162px;
+	left:25px;
+	top:100px;
+	}
+
+#box-servicos2 p{
+	position:relative;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#1e4552;
+	font-size:12px;
+	line-height:20px;
+	left:30px;
+	top:52px;
+	letter-spacing:1px;
+	width:520px;
+	}
+
+#box-office{
+	position:relative;
+	top:170px;
+	text-align:center
+	}
+	
+aside{
+	position:relative;
+	top:-827px;
+	left:660px;
+	text-align:left;
+	width:300px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFFFFF;
+	text-align:center;
+	}
+	
+footer{
+	top:-200px;
+	}

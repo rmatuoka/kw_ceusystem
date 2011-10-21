@@ -1,0 +1,38 @@
+#txt-faq{
+	width:591px;
+	text-align:justify;
+	}
+
+#item-faq{
+	position:relative;
+	top:30px;	
+	}
+
+#tit-item-faq{
+	background-image:url('../images/bg-faq.png');
+	background-repeat:no-repeat;
+	width:591px;
+	height:42px;
+	}
+	
+#tit-item-faq p{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#463c46;
+	margin-left:40px;
+	line-height:42px;
+	}
+
+#txt-item-faq{
+	width:591px;
+	text-align:justify;
+	}
+
+aside{
+	top:-1430px;
+	}
+	
+footer{
+	top:-390px;
+	}

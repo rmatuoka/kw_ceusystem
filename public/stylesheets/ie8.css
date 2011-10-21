@@ -1,0 +1,14 @@
+header{
+	border:1px solid transparent;
+	position:relative;
+	left:-450px;
+	}
+
+article{
+	border: 1px solid red;
+	}
+
+footer{
+	position:relative;
+	left:-20px;
+	}

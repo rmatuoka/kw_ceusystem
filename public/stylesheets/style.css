@@ -1,0 +1,197 @@
+html, body{
+	height:0;
+	}
+
+@font-face {
+    font-family: 'correspe';
+    src: url('thescob_-webfont.eot');
+    src: url('thescob_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('thescob_-webfont.woff') format('woff'),
+         url('thescob_-webfont.ttf') format('truetype'),
+         url('thescob_-webfont.svg#TheSansCorrespeBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+ul{
+	margin:0;
+	list-style:none;
+	display:inline-block;
+	}
+
+ul li{
+	margin:0;
+	display:inline-block;
+	}
+	
+body{
+	background-color:#7fcce6;
+	background-image:url('/images/bg-noite-oque.jpg');
+	background-repeat:repeat-x;
+	text-align:center;
+	overflow-x:hidden;
+	}
+	
+#bg-texture{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:1600px;
+	background-image:url('../images/bg-texture.png');
+	background-repeat:repeat-x;
+	z-index:2;
+
+	}
+	
+section{
+	width:960px;
+	margin:0 auto;
+	margin-top:-8px;
+	*margin-top:-15px;
+	height:800px;
+	}
+
+header{
+	position:absolute;
+	text-align:left;
+	z-index:100;
+
+	}
+
+#logo{
+	position:absolute;
+	width:218px;
+	height:66px;
+	top:44px;
+	left:34px;
+	*left:-450px;
+	}
+
+nav{
+	position:absolute;
+	width:680px;
+	height:180px;
+	top:24px;
+	left:280px;
+	*left:-200px;
+	background-image:url('../images/bg-menu.png');
+	background-repeat:no-repeat;
+	display:block;
+	}
+
+nav ul{
+	margin-left:30px;
+	margin-top:40px;
+	*margin-left:70px;
+	}
+
+nav li{
+	vertical-align: top;
+	margin-right:60px;
+	*float:left;
+	}
+	
+.hide{
+	display:none;
+	}
+
+#menu-oque-over{
+	position:absolute;
+	top:9px;
+	left:41px;
+	}
+
+#menu-empresa-over{
+	position:absolute;
+	top:7px;
+	left:190px;
+	}
+
+#menu-servicos-over{
+	position:absolute;
+	top:10px;
+	left:347px;
+	}
+	
+#menu-contato-over{
+	position:absolute;
+	top:9px;
+	left:492px;
+	}
+	
+article{
+	position:relative;
+	}
+
+#nuvem_um{
+	position:absolute;
+	top:320px;
+	*left:0px;
+	z-index:100;
+	}
+
+#nuvem_dois{
+	position:absolute;
+	top:190px;
+	left:610px;
+	z-index:100;
+	}
+	
+#tit-oque{
+	position:relative;
+	top:180px;
+	z-index:100;
+	}
+
+#tv{
+	position:relative;
+	top:200px;
+	z-index:100;
+	}
+
+#tit-naoentendeu{
+	position:relative;
+	top:170px;
+	*left:100px;
+	left:100px;
+	z-index:100;
+	}
+
+footer{
+	position:relative;
+	width:2000px;
+	height:160px;
+	background-image:url('../images/bg-casas-footer.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	display:block;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	color:#1e4551;
+	top:220px;
+	left:-500px;
+	bottom:0;
+	}
+	
+#logo_korewa{
+	position:relative;
+	left:500px;
+	width:69px;
+	height:29px;
+	}
+	
+footer span{
+	position:relative;
+	left:400px;
+	top:-30px;
+	}
+	
+footer span a{
+	text-align:left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	text-decoration:none;
+	color:#1e4551;
+	}

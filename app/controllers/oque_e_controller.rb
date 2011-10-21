@@ -1,0 +1,2 @@
+class OqueEController < ApplicationController
+end

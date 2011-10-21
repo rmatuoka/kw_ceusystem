@@ -1,0 +1,98 @@
+<%content_for :title do%>
+	- Conheça os nossos serviços - Office 365
+<%end%>
+
+<%content_for :head do%>
+	<%= stylesheet_link_tag "office367" %>
+	<script type="text/javascript"> 
+		$(document).ready(function() {
+			$('.menu-oque').mouseenter(function() {
+				$('#menu-oque-over').fadeToggle("fast", "linear").removeClass("hide");})
+				$('#menu-oque-over').mouseleave(function(){
+				$('#menu-oque-over').fadeToggle("fast", "linear").addClass("hide");
+			})
+
+			$('.menu-empresa').mouseenter(function() {
+				$('#menu-empresa-over').fadeToggle("fast", "linear").removeClass("hide");})
+				$('#menu-empresa-over').mouseleave(function(){
+				$('#menu-empresa-over').fadeToggle("fast", "linear").addClass("hide");
+			})
+
+			$('#menu-servicos-over').removeClass("hide");
+
+			$('.menu-contato').mouseenter(function() {
+				$('#menu-contato-over').fadeToggle("fast", "linear").removeClass("hide");})
+				$('#menu-contato-over').mouseleave(function(){
+				$('#menu-contato-over').fadeToggle("fast", "linear").addClass("hide");
+			})
+		})
+
+	</script>
+<%end%>
+
+<article>
+	<div id='tit-office'>
+    	<img src="/images/tit-office365.png" border="0">
+    </div>
+    <div id='office-box1'>
+    		<p>Integrante do serviço de SaaS da Ceu System, o <b>Office 365</b> possui planos de serviços ideais para satisfazer suas necessidades empresariais em termos de segurança e fiabilidade robustas e produtividade do utilizador final.</p>
+<p>O <b>Office 365</b> é uma evolução do já conhecido BPOS. Nessa nova versão, há novos serviços, como o <b>Office Web Apps</b> e o <b>Office Professional Plus</b>. Além disso, o <b>Office Communications</b> e o <b>Live Meeting</b> foram aprimorados e se tornaram o <b>Lync Online</b>.</p>
+<p>O <b>Office 365</b> possui serviços que podem suprir todas as necessidades que você e a sua empresa apresentam:</p>
+    </div>
+    <div id='office-box2'>
+    	<img src="/images/tit-oferece.png" border="0">
+    	<div id='office-produto1'>
+			<div id='p1-direita'>
+            Uma versão do Microsoft Office fornecida como serviço flexível e suportada por serviços do Office 365 na cloud. Ele obtém as versões mais recentes das aplicações familiares do Office e as Office Web Apps, permitindo que o usuário crie, comunique e colabore com agilidade e mobilidade.
+            </div>
+            <div id='p1-esquerda'>
+            	<img src="/images/bg_produto1.png" border="0">
+            </div>
+        </div>
+        <div id='office-produto2'>
+			<div id='p2-direita'>
+            	<img src="/images/bg_produto2.png" border="0">
+            </div>
+            <div id='p2-esquerda'>
+            Uma central para partilhar documentos e informações com colegas e clientes. Ideal para ser utilizado com as aplicações familiares do Office, é de fácil utilização e permite que você colabore em propostas e projetos em tempo real, uma vez que tem acesso aos documentos e às informações de que necessita a partir de praticamente qualquer local.
+            </div>
+        </div>
+        <div id='office-produto3'>
+			<div id='p3-direita'>
+            	Um serviço de e-mail, calendário e contatos concebido para fornecer à sua empresa o controle que você necessita com a fiabilidade que você deseja.
+<br><br>
+Com o Exchange Online, você utiliza o seu e-mail nos servidores Microsoft. Tudo com proteção antivírus e filtros anti-spam incorporados e ilimitados, suporte telefónico ao nível de TI 24 horas por dia, sete dias por semana no idioma local de cada cliente.
+            </div>
+            <div id='p3-esquerda'>
+            	<img src="/images/bg_produto3.png" border="0">
+            </div>
+        </div>
+        <div id='office-produto4'>
+			<div id='p4-direita'>
+            	<img src="/images/bg_produto4.png" border="0">
+            </div>
+            <div id='p4-esquerda'>
+            	Um serviço de comunicação na cloud da próxima geração capaz de ligar pessoas de novas formas a partir de qualquer local utilizando capacidades de presença, mensagens instantâneas, chamadas de áudio/vídeo e reuniões online avançadas com conferências de áudio, vídeo e Web. 
+            </div>
+        </div>
+        <div id='office-produto5'>
+			<div id='p5-direita'>
+            	Um prático complemento online do Microsoft Word, Excel, PowerPoint e OneNote que lhe oferece uma forma fácil de acessar, visualizar e editar documentos diretamente a partir do browser.
+            </div>
+            <div id='p5-esquerda'>
+            	<img src="/images/bg_produto5.png" border="0">
+            </div>
+        </div>
+    </div>
+    <div id='office-box3'>
+    <a href="faq.html"><img src="/images/tit-consultefaq.png" border="0" /></a>
+    </div>
+</article>
+<aside>
+	<div id='box-servicos3'>
+    	<a href="oque.html"><img src="/images/img-servicos2.png" border="0"></a>
+    </div>
+    <div id='box-servicos4'>
+    	<a href="contato.html"><img src="/images/img-servicos3.png" border="0"></a>
+    </div>
+</aside>

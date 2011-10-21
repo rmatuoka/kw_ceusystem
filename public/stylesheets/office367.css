@@ -1,0 +1,163 @@
+article{
+	position:relative;
+	top:200px;
+	text-align:left;
+	width:660px;
+	}
+	
+#office-box1{
+	position:relative;
+	}
+
+#office-box1 p{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	}
+
+#office-box1 b{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	font-weight:bold;
+	}
+
+#office-box2{
+	position:relative;
+	top:20px;
+	text-align:justify;
+	}
+
+#office-produto1{
+	position:relative;
+	top:20px;
+	height:101px;
+	margin-bottom:10px;
+	}
+
+#p1-direita{
+	width:383px;
+	height:81px;
+	margin-right:10px;
+	float:right;
+	background-image:url('../images/bg-office365.png');
+	padding:10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	}
+
+#p1-esquerda{
+	width:231px;
+	height:101px;
+	margin-right:10px;
+	}
+
+#office-produto2{
+	position:relative;
+	top:40px;
+	}
+
+#p2-direita{
+	width:231px;
+	height:131px;
+	float:right;
+	margin-right:9px;
+	}
+
+#p2-esquerda{
+	width:383px;
+	height:111px;
+	margin-right:10px;
+	background-image:url('../images/bg-office365.png');
+	padding:10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	}
+
+#office-produto3{
+	position:relative;
+	top:60px;
+	}
+
+#p3-direita{
+	width:335px;
+	height:170px;
+	margin-right:10px;
+	float:right;
+	background-image:url('../images/bg-office365.png');
+	padding:10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	}
+
+#p3-esquerda{
+	width:278px;
+	height:190px;
+	margin-right:10px;
+	}
+
+#office-produto4{
+	position:relative;
+	top:80px;
+	}
+
+#p4-direita{
+	width:231px;
+	height:101px;
+	float:right;
+	
+	}
+
+#p4-esquerda{
+	width:393px;
+	height:99px;
+	margin-right:10px;
+	background-image:url('../images/bg-office365.png');
+	padding:10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	}
+
+#office-produto5{
+	position:relative;
+	top:100px;
+	}
+
+#p5-direita{
+	width:387px;
+	height:69px;
+	margin-right:13px;
+	float:right;
+	background-image:url('../images/bg-office365.png');
+	padding:10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	}
+
+#p5-esquerda{
+	width:231px;
+	height:101px;
+	margin-right:10px;
+	}
+
+#office-box3{
+	position:relative;
+	text-align:center;
+	top:140px;
+	}
+
+aside{
+	position:relative;
+	top:-850px;
+	left:340px;
+	}
+
+footer{
+	top:-250px;
+	}
+

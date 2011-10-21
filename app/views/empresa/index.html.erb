@@ -1,0 +1,67 @@
+<%content_for :title do%>
+	- Quem Somos?
+<%end%>
+
+<%content_for :head do%>
+	<%= stylesheet_link_tag "empresa" %>
+	<script type="text/javascript"> 
+		$(document).ready(function() {
+			$('.menu-oque').mouseenter(function() {
+				$('#menu-oque-over').fadeToggle("fast", "linear").removeClass("hide");})
+				$('#menu-oque-over').mouseleave(function(){
+				$('#menu-oque-over').fadeToggle("fast", "linear").addClass("hide");
+			})
+
+			$('#menu-empresa-over').removeClass("hide");
+
+			$('.menu-servicos').mouseenter(function() {
+				$('#menu-servicos-over').fadeToggle("fast", "linear").removeClass("hide");})
+				$('#menu-servicos-over').mouseleave(function(){
+				$('#menu-servicos-over').fadeToggle("fast", "linear").addClass("hide");
+			})
+
+			$('.menu-contato').mouseenter(function() {
+				$('#menu-contato-over').fadeToggle("fast", "linear").removeClass("hide");})
+				$('#menu-contato-over').mouseleave(function(){
+				$('#menu-contato-over').fadeToggle("fast", "linear").addClass("hide");
+			})
+
+		})
+	</script>
+<%end%>
+<article>
+	<div id='tit-empresa'>
+    	<img src="images/tit-empresa.png" border="0">
+    </div>
+    <div id='txt-empresa'>
+    		<p>	Na <b>Ceu System</b> você encontrará a consultoria da qual precisa para conhecer e entender como a cloud computing – ou computação nas nuvens – pode resolver esses e outros empasses do seu dia a dia.</p>
+			<p>A computação nas nuvens transfere para a internet a estrutura física que seu servidor utiliza atualmente dentro da empresa. Isso mesmo, seus gastos com ampliação, redução e até mão de obra especializada para manutenção estão com os dias contados.</p>
+    </div>
+    <div id='box-empresa1'>
+    	<p>Transformar os mais diversos negócios em experiências positivas com a utilização do poder da computação nas nuvens. Com competência e comprometimento, trabalhamos para solucionar os novos desafios no gerenciamento de TI e de datacenters.</p>
+
+<p>Trabalhar sempre de forma verdadeira, oferecendo soluções atuais e eficazes, visando a satisfação e melhoria no ambiente corporativo de nossos clientes.</p>
+    </div>
+    <div id='box-empresa2'>
+    	<h3>Valores</h3>
+    	<ul>
+        	<li>Honestidade</li>
+            <li>Profissionalismo</li>
+            <li>Respeito</li>
+            <li>Humanidade</li>
+            <li>Ética</li>
+            <li>Comprometimento</li>
+        </ul>
+    </div>
+    <div id='box-empresa3'>
+    	<p>Tornar-se referência em soluções para empresas dos mais variados segmentos com a computação nas nuvens, fornecendo sempre alternativas inovadoras e disponibilizando a mais alta tecnologia para melhorar o desempenho de sistemas vitais para empresas de portes variados.</p>
+    </div>
+</article>
+<aside>
+	<div id='box-servicos3'>
+		<%=link_to(image_tag("img-servicos2.png"), oque_e_index_path)%>
+    </div>
+    <div id='box-servicos4'>
+		<%=link_to(image_tag("img-servicos3.png"), contato_index_path)%>
+    </div>
+</aside>

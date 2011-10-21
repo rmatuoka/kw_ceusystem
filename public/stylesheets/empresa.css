@@ -1,0 +1,94 @@
+article{
+	position:relative;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-align:left;
+	width:600px;
+	top:200px;
+	}
+
+#txt-empresa{
+	position:relative;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	}
+
+#box-empresa1{
+	position:relative;
+	background-image:url('../images/bg-empresa1.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	width:597px;
+	height:204px;
+	top:30px;
+	}
+
+#box-empresa1 p{
+	position:relative;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#1e4552;
+	width:530px;
+	top:70px;
+	left:20px;
+	}
+
+#box-empresa2{
+	position:relative;
+	top:30px;
+	}
+	
+#box-empresa2 h3{
+	position:relative;
+	font-family:correspe;
+	font-size:26px;
+	color:#3d6164;
+	}
+
+#box-empresa2 ul{
+	position:relative;
+	margin-left:50px;
+	}
+
+#box-empresa2 ul li{
+	position:relative;
+	display:list-item;
+	list-style:url('../images/ico-list.png') !important;
+	list-style-image: url('../images/ico-list.png') !important;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#463c46;
+	font-weight:bold;
+	vertical-align:top;
+	margin-bottom:10px;
+	}
+
+#box-empresa3{
+	position:relative;
+	background-image:url('../images/bg-empresa2.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	width:597px;
+	height:169px;
+	top:50px;
+	}
+
+#box-empresa3 p{
+	position:relative;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#1e4552;
+	width:530px;
+	top:70px;
+	left:20px;
+	}
+
+aside{
+	position:relative;
+	top:-620px;
+	left:300px;
+	}
+
+footer{
+	top:-200px;
+	}

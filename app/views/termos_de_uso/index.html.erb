@@ -1,0 +1,63 @@
+<%content_for :title do%>
+	- Termos de Uso
+<%end%>
+
+<%content_for :head do%>
+	<%= stylesheet_link_tag "servicos" %>
+	<%= stylesheet_link_tag "termos" %>
+	
+	<script type="text/javascript"> 
+		$(document).ready(function() {
+			$('.menu-oque').mouseenter(function() {
+				$('#menu-oque-over').fadeToggle("fast", "linear").removeClass("hide");})
+				$('#menu-oque-over').mouseleave(function(){
+				$('#menu-oque-over').fadeToggle("fast", "linear").addClass("hide");
+			})
+
+			$('.menu-empresa').mouseenter(function() {
+				$('#menu-empresa-over').fadeToggle("fast", "linear").removeClass("hide");})
+				$('#menu-empresa-over').mouseleave(function(){
+				$('#menu-empresa-over').fadeToggle("fast", "linear").addClass("hide");
+			})
+
+			$('.menu-servicos').mouseenter(function() {
+				$('#menu-servicos-over').fadeToggle("fast", "linear").removeClass("hide");})
+				$('#menu-servicos-over').mouseleave(function(){
+				$('#menu-servicos-over').fadeToggle("fast", "linear").addClass("hide");
+			})
+
+			$('.menu-contato').mouseenter(function() {
+				$('#menu-contato-over').fadeToggle("fast", "linear").removeClass("hide");})
+				$('#menu-contato-over').mouseleave(function(){
+				$('#menu-contato-over').fadeToggle("fast", "linear").addClass("hide");
+			})
+		})
+	</script>
+<%end%>
+
+<article>
+	<div id='tit-servicos'>
+    	<img src="images/tit-termos.png" border="0">
+    </div>
+    <div id='txt-servicos'>
+    		<p>Todo o conteúdo deste site pertence à CEU SYSTEM DESENVOLVIMENTO DE SISTEMAS DE INTERNET LTDA e está protegido pelas leis de copyright. O uso das informações, tais como imagens, textos exclusivos, entre outros conteúdos, é terminantemente proibido e, havendo transgressão desta regra, o responsável deverá responder judicialmente.</p>
+
+<p>Os produtos aqui apresentados possuem garantia e tecnologia Microsoft®, sendo assim não há nem haverá publicação de quaisquer informações que não estejam de acordo com as normas estabelecidas pela própria Microsoft®.</p>
+
+<p>As publicações de caráter informativo deste site estão baseadas em informações igualmente fornecidas pela empresa detentora da patente dos produtos, não representando necessariamente o resultado de constatações feitas pela empresa proprietária deste site.</p>
+
+<p>Recomendamos aos usuários que leiam com atenção cada seção do site a fim de compreender e se in formar da melhor forma possível sobre os produtos e serviços aqui disponibilizados. Havendo, ainda assim, dúvidas, recomendamos que os mesmos entrem em contato com os profissionais responsáveis.</p>
+
+<p>Uma vez que há um canal aberto para a solução de dúvidas, a Ceu System não se responsabiliza por mau uso ou uso dos produtos e serviços aqui disponibilizados.</p>
+
+<p>Fica estabelecido que quaisquer dúvidas ou sugestões devem ser encaminhadas para os responsáveis para que, no tempo possível, sejam solucionadas.</p>
+    </div>
+</article>
+<aside>
+	<div id='box-servicos3'>
+    	<a href="oque.html"><img src="images/img-servicos2.png" border="0"></a>
+    </div>
+    <div id='box-servicos4'>
+    	<a href="contato.html"><img src="images/img-servicos3.png" border="0"></a>
+    </div>
+</aside>

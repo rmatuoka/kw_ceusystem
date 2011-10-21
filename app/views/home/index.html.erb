@@ -1,0 +1,55 @@
+<%content_for :head do%>
+<script type="text/javascript"> 
+	$(document).ready(function() {
+		$('.menu-oque').mouseenter(function() {
+			$('#menu-oque-over').fadeToggle("fast", "linear").removeClass("hide");})
+			$('#menu-oque-over').mouseleave(function(){
+			$('#menu-oque-over').fadeToggle("fast", "linear").addClass("hide");
+		})
+		$('.menu-empresa').mouseenter(function() {
+			$('#menu-empresa-over').fadeToggle("fast", "linear").removeClass("hide");})
+			$('#menu-empresa-over').mouseleave(function(){
+			$('#menu-empresa-over').fadeToggle("fast", "linear").addClass("hide");
+		})
+		$('.menu-servicos').mouseenter(function() {
+			$('#menu-servicos-over').fadeToggle("fast", "linear").removeClass("hide");})
+			$('#menu-servicos-over').mouseleave(function(){
+			$('#menu-servicos-over').fadeToggle("fast", "linear").addClass("hide");
+		})
+		$('.menu-contato').mouseenter(function() {
+			$('#menu-contato-over').fadeToggle("fast", "linear").removeClass("hide");})
+			$('#menu-contato-over').mouseleave(function(){
+			$('#menu-contato-over').fadeToggle("fast", "linear").addClass("hide");
+		})
+	})
+$(function(){
+	positionFooter(); 
+	function positionFooter(){
+		if($(document).height() < $(window).height()){
+			$("#bg-rodape").css({position: "absolute",top:($(window).scrollTop()+$(window).height()-$("#bg-rodape").height())+"px"})
+		}	
+	}
+
+	$(window)
+		.scroll(positionFooter)
+		.resize(positionFooter)
+});
+</script>
+<%end%>
+<article>
+	<div id='nuvem_um'>
+		<img src="images/nuvem_um.png" border="0">
+	</div>
+	<div id='nuvem_dois'>
+		<img src="images/nuvem_dois.png" border="0">
+	</div>
+	<div id='tit-oque'>
+		<img src="images/tit-oque.png" border="0">
+	</div>
+	<div id='tv'>
+		<img src="images/img-tv.png" border="0">
+	</div>
+	<div id='tit-naoentendeu'>
+		<a href="oque.html"><img src="images/tit-naoentendeu.png" border="0"></a>
+	</div>
+</article>
