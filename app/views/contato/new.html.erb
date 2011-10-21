@@ -33,10 +33,25 @@
 
 <article>
 	<div id='tit-contato'>
-    	<img src="images/tit-contato.png" border="0">
+    	<img src="/images/tit-contato.png" border="0">
     </div>
-    <form>
-    	<label>Nome</label>
+	<%=form_tag '/contato', :method => :post%>
+		<label>Nome</label>
+		<%=text_field_tag :nome, params[:nome], :class => @error_nome%><br>
+		
+		<label>E-mail</label>
+		<%=text_field_tag :email, params[:email], :class => @error_email%><br>
+		
+		<label>Telefone</label>
+		<%=text_field_tag :telefone, params[:telefone], :class => @error_telefone%><br>
+				
+		<label>Empresa</label>
+		<%=text_field_tag :empresa, params[:empresa], :class => @error_empresa%><br>
+		
+		<label>Mensagem</label>
+		<%=text_area_tag :mensagem, params[:mensagem], :class => @error_mensagem%> <br/>
+		
+		<!-- <label>Nome</label>
         <input name="nome" type="text" id='nome'><br>
         <label>E-mail</label>
         <input name="email" type="text" id='email'><br>
@@ -46,9 +61,10 @@
         <input name="empresa" type="text" id='empresa'><br>
         <label>Mensagem</label>
         <textarea name="mensagem" id='mensagem' cols="" rows=""></textarea><br>
-        <img src="images/bt-enviar.png" border="0">
-    </form>
+    	-->
+		<%=image_submit_tag "bt-enviar.png", :style => "border:none; background:transparent; width:175px; height:53px; !important"%>
+	</form>
 </article>
 <aside>
-	<img src="images/img-aside-contato.png" border="0">
+	<img src="/images/img-aside-contato.png" border="0">
 </aside>
