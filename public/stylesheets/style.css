@@ -195,3 +195,33 @@ footer span a{
 	text-decoration:none;
 	color:#1e4551;
 	}
+	
+.field_with_errors
+{
+	display :inline-block;
+}
+.input_error
+{
+	width:399px;
+	height:42px;
+	background-image:url('../images/bg-campo-form2.png') !important;
+	background-repeat:no-repeat;
+	border:none;
+	background-color:transparent;
+	margin-bottom:30px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#d7f0f6;
+	
+}
+
+.textarea_error{
+	width:399px;
+	height:235px;
+	background-image:url('../images/bg-campo-txt2.png') !important;
+	background-repeat:no-repeat;
+	border:none;
+	background-color:transparent;
+	resize:none;
+	margin-right:-5px;
+	}

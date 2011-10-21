@@ -1,2 +1,0 @@
-class TrabalheConoscoController < ApplicationController
-end

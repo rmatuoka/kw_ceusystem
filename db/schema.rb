@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111021182640) do
+ActiveRecord::Schema.define(:version => 20111021201703) do
 
   create_table "sitecontacts", :force => true do |t|
     t.string   "nome"
@@ -20,6 +20,19 @@ ActiveRecord::Schema.define(:version => 20111021182640) do
     t.text     "mensagem"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "works", :force => true do |t|
+    t.string   "nome"
+    t.string   "email"
+    t.string   "telefone"
+    t.text     "mensagem"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "curriculum_file_name"
+    t.string   "curriculum_content_type"
+    t.integer  "curriculum_file_size"
+    t.datetime "curriculum_updated_at"
   end
 
 end

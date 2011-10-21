@@ -1,4 +1,4 @@
-KwCeusystem::Application.routes.draw do
+KwCeusystem::Application.routes.draw do |map|
   
   resources :oque_e
   resources :empresa
@@ -9,10 +9,11 @@ KwCeusystem::Application.routes.draw do
     end
   }
   resources :termos_de_uso
-  resources :trabalhe_conosco
   resources :contato
+  resources :works
   
   root :to => "home#index"
+  map.trabalhe_conosco "trabalhe_conosco", :controller => "works", :action => "new"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
