@@ -27,7 +27,8 @@ label{
 	}
 
 input{
-	width:399px;
+	width:389px;
+	padding-left:10px;
 	height:42px;
 	background-image:url('../images/bg-campo-form.png');
 	background-repeat:no-repeat;

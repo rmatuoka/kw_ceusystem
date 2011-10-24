@@ -5,6 +5,7 @@
 	<title>Ceu System : Cloud Solution <%=yield :title%></title>
   	<script src="http://code.jquery.com/jquery-1.6.4.js"></script>
 	<%= javascript_include_tag "html5.js" %>
+	<link rel="icon" type="image/png" href="/images/icon.ico" />
 	<script src="http://www.modernizr.com/downloads/modernizr-2.0.6.js"></script>
 	
 	<%= stylesheet_link_tag "style" %>
@@ -22,7 +23,8 @@
         
         <%= yield %>
         
-        <%=render :file => "/layouts/_footer.html.erb"%>
+        
     </section>
+	<%=render :file => "/layouts/_footer.html.erb"%>
 </body>
 </html>
