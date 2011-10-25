@@ -1,15 +1,19 @@
 article{
-	position:relative;
+	position:absolute;
 	text-align:left;
 	top:200px;
 	width:600px;
 	}
 
+#tit-contato{
+	position:absolute;
+	top:100px;
+	}
+	
 form{
-	position:relative;
+	position:absolute;
 	text-align:right;
-	margin-top:30px;
-	left:-80px;
+	top:200px;
 	}
 	
 label{
@@ -52,11 +56,25 @@ textarea{
 	}
 
 aside{
-	position:relative;
-	left:300px;
-	top:-500px;	
+	position:absolute;
+	top:300px;
+	left:680px;
 	}
 
 footer{
-	top:0px;
+	width:100%;
+	height:271px;
+	background-image:url('../images/bg-casas-noite.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	display:block;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	color:#1e4551;
+	position: absolute;
+	bottom: 0 !important;
+	bottom: -1px;
+	width:100%;
+	left:0px;
+	top:1000px;
 	}

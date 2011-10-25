@@ -1,12 +1,18 @@
 article{
-	position:relative;
+	position:absolute;
 	top:200px;
 	text-align:left;
 	width:660px;
 	}
 	
+#tit-office{
+	position:absolute;
+	top:100px;
+	}
+
 #office-box1{
-	position:relative;
+	position:absolute;
+	top:160px;
 	}
 
 #office-box1 p{
@@ -23,14 +29,14 @@ article{
 	}
 
 #office-box2{
-	position:relative;
-	top:20px;
+	position:absolute;
+	top:400px;
 	text-align:justify;
 	}
 
 #office-produto1{
-	position:relative;
-	top:20px;
+	position:absolute;
+	top:90px;
 	height:101px;
 	margin-bottom:10px;
 	}
@@ -38,7 +44,7 @@ article{
 #p1-direita{
 	width:383px;
 	height:81px;
-	margin-right:10px;
+	margin-left:241px;
 	float:right;
 	background-image:url('../images/bg-office365.png');
 	padding:10px;
@@ -50,114 +56,137 @@ article{
 #p1-esquerda{
 	width:231px;
 	height:101px;
-	margin-right:10px;
+	margin-top:-101px;
+	float:left;
 	}
 
 #office-produto2{
-	position:relative;
-	top:40px;
+	position:absolute;
+	top:210px;
 	}
 
 #p2-direita{
 	width:231px;
 	height:131px;
 	float:right;
-	margin-right:9px;
+	margin-left:415px;
 	}
 
 #p2-esquerda{
 	width:383px;
 	height:111px;
-	margin-right:10px;
 	background-image:url('../images/bg-office365.png');
 	padding:10px;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:14px;
 	color:#FFFFFF;
+	float:left;
+	margin-top:-131px;
 	}
 
 #office-produto3{
-	position:relative;
-	top:60px;
+	position:absolute;
+	top:360px;
 	}
 
 #p3-direita{
 	width:335px;
 	height:170px;
-	margin-right:10px;
 	float:right;
 	background-image:url('../images/bg-office365.png');
 	padding:10px;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:14px;
 	color:#FFFFFF;
+	margin-left:288px;
 	}
 
 #p3-esquerda{
 	width:278px;
 	height:190px;
-	margin-right:10px;
+	float:left;
+	margin-top:-190px;
 	}
 
 #office-produto4{
-	position:relative;
-	top:80px;
+	position:absolute;
+	top:570px;
 	}
 
 #p4-direita{
 	width:231px;
 	height:101px;
 	float:right;
-	
+	margin-left:425px;
 	}
 
 #p4-esquerda{
 	width:393px;
 	height:99px;
-	margin-right:10px;
 	background-image:url('../images/bg-office365.png');
 	padding:10px;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:14px;
 	color:#FFFFFF;
+	float:left;
+	margin-top:-100px;
 	}
 
 #office-produto5{
-	position:relative;
-	top:100px;
+	position:absolute;
+	top:710px;
 	}
 
 #p5-direita{
 	width:387px;
 	height:69px;
-	margin-right:13px;
 	float:right;
 	background-image:url('../images/bg-office365.png');
 	padding:10px;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:14px;
 	color:#FFFFFF;
+	margin-left:236px;
 	}
 
 #p5-esquerda{
 	width:231px;
 	height:101px;
-	margin-right:10px;
+	float:left;
+	margin-top:-89px;
+	
 	}
 
 #office-box3{
-	position:relative;
+	position:absolute;
 	text-align:center;
-	top:140px;
+	top:1250px;
+	margin-left:107px;
 	}
 
 aside{
-	position:relative;
-	top:-850px;
-	left:340px;
+	position:absolute;
+	top:300px;
+	left:680px;
 	}
 
 footer{
-	top:-250px;
+	width:100%;
+	height:271px;
+	background-image:url('../images/bg-casas-noite.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	display:block;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	color:#1e4551;
+	position: absolute;
+	bottom: 0 !important;
+	bottom: -1px;
+	width:100%;
+	left:0px;
+	z-index:1;
+	top:1400px;
 	}
+
 

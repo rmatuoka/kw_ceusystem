@@ -7,23 +7,27 @@
 	<%= javascript_include_tag "html5.js" %>
 	<link rel="icon" type="image/png" href="/images/icon.ico" />
 	<script src="http://www.modernizr.com/downloads/modernizr-2.0.6.js"></script>
+	<%=yield :head%>
+		<%= stylesheet_link_tag "style" %>
 	
-	<%= stylesheet_link_tag "style" %>
+	<script type="text/javascript">
+		var d = new Date();
+		var h = d.getHours();
+		if ((h >= 6) && (h< 18))
+			document.write('<%= stylesheet_link_tag "dia" %>');
+		end
+	</script>
 	<!--[if IE 8]>
 			<%= stylesheet_link_tag "ie8" %>
 	        <link href="css/ie8.css" rel="stylesheet" type"text/css" media="all">
 	<![endif]-->
-	<%= csrf_meta_tag %>
-
-	 <%=yield :head%>
+		<%= csrf_meta_tag %>
 </head>
 <body>
 	<section>
     	<%=render :file => "/layouts/_header.html.erb"%>
         
         <%= yield %>
-        
-        
     </section>
 	<%=render :file => "/layouts/_footer.html.erb"%>
 </body>

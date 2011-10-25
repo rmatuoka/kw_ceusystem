@@ -1,57 +1,63 @@
 article{
-	position:relative;
+	position:absolute;
 	font-family:Tahoma, Geneva, sans-serif;
 	text-align:left;
 	width:600px;
 	top:200px;
 	}
+	
+#tit-empresa{
+	position:absolute;
+	top:100px;
+	}
 
 #txt-empresa{
-	position:relative;
+	position:absolute;
 	font:Tahoma, Geneva, sans-serif;
 	font-size:14px;
 	color:#FFFFFF;
+	top:160px;
 	}
 
 #box-empresa1{
-	position:relative;
+	position:absolute;
 	background-image:url('../images/bg-empresa1.png');
 	background-repeat:no-repeat;
 	background-position:center;
 	width:597px;
 	height:204px;
-	top:30px;
+	top:330px;
 	}
 
 #box-empresa1 p{
-	position:relative;
+	position:absolute;
 	font:Tahoma, Geneva, sans-serif;
 	font-size:14px;
 	color:#1e4552;
 	width:530px;
-	top:70px;
+	top:50px;
 	left:20px;
 	}
 
 #box-empresa2{
-	position:relative;
-	top:30px;
+	position:absolute;
+	top:550px;
 	}
 	
 #box-empresa2 h3{
-	position:relative;
+	position:absolute;
 	font-family:correspe;
 	font-size:26px;
 	color:#3d6164;
 	}
 
 #box-empresa2 ul{
-	position:relative;
+	position:absolute;
+	top:80px;
 	margin-left:50px;
 	}
 
 #box-empresa2 ul li{
-	position:relative;
 	display:list-item;
 	list-style:url('../images/ico-list.png') !important;
 	list-style-image: url('../images/ico-list.png') !important;
@@ -64,31 +70,46 @@ article{
 	}
 
 #box-empresa3{
-	position:relative;
+	position:absolute;
 	background-image:url('../images/bg-empresa2.png');
 	background-repeat:no-repeat;
 	background-position:center;
 	width:597px;
 	height:169px;
-	top:50px;
+	top:900px;
 	}
 
 #box-empresa3 p{
-	position:relative;
+	position:absolute;
 	font:Tahoma, Geneva, sans-serif;
 	font-size:14px;
 	color:#1e4552;
 	width:530px;
-	top:70px;
+	top:60px;
 	left:20px;
 	}
 
 aside{
-	position:relative;
-	top:-620px;
-	left:300px;
+	position:absolute;
+	top:300px;
+	left:678px;
+	width:282px;
 	}
 
 footer{
-	top:-200px;
+	width:100%;
+	height:271px;
+	background-image:url('../images/bg-casas-noite.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	display:block;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	color:#1e4551;
+	position: absolute;
+	bottom: 0 !important;
+	bottom: -1px;
+	width:100%;
+	left:0px;
+	top:1150px;
 	}
