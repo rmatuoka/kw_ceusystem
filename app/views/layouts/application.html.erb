@@ -13,9 +13,9 @@
 	<script type="text/javascript">
 		var d = new Date();
 		var h = d.getHours();
-		if ((h >= 6) && (h< 18))
+		if ((h >= 6) && (h< 18)){
 			document.write('<%= stylesheet_link_tag "dia" %>');
-		end
+		}
 	</script>
 	<!--[if IE 8]>
 			<%= stylesheet_link_tag "ie8" %>
