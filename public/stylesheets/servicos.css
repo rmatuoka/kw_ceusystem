@@ -18,7 +18,7 @@ article{
 
 article b{
 	font-weight:bold;
-	color:#152123;
+	color:#fff;
 	}
 
 #box-servicos1{
@@ -138,5 +138,5 @@ footer{
 	bottom: -1px;
 	width:100%;
 	left:0px;
-	top:1329px;
+	top:1329px  !important;
 	}

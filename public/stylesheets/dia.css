@@ -1,7 +1,86 @@
 body{
-	background-image:url('/images/bg-dia.jpg');
+	background-image:url('/images/bg-dia.jpg') !important;
+	}
+
+#oque-imagem{
+	position:absolute !important;
+	top:50px !important;
+	left:25px !important;
+	width:872px !important;
+	height:554px !important;
+	background-image:url(../images/img-oque-dia.png) !important;
+	background-position:left top !important;
+	background-repeat:no-repeat !important;
+	}
+
+#box-1 h3{
+	color:#495d76 !important;
+	}
+
+#box-1 p{
+	color:#656157 !important;
+	}
+
+#box-2 h3{
+	color:#495d76 !important;
+	}
+
+#box-2 p{
+	color:#656157 !important;
+	}
+
+#box-3 h3{
+	color:#495d76 !important;
+	}
+
+#box-3 p{
+	color:#656157 !important;
+	}
+
+#box-4 h3{
+	color:#495d76 !important;
+	}
+
+#box-4 p{
+	color:#656157 !important;
+	}
+
+#txt-empresa {
+	color:#656157 !important;
+	}
+
+#box-empresa1 p{
+	color:#656157 !important;
+	}
+
+#box-empresa3 p{
+	color:#656157 !important;
+	}
+
+#txt-servicos{
+	color:#656157 !important;;
+	}
+
+article b{
+	color:#656157 !important;;
+	}
+
+#office-box1{
+	color:#656157 !important;;
+	}
+
+#office-box1 p{
+	color:#656157 !important;;
+	}
+
+#txt-faq p{
+	color:#656157 !important;;
+	}
+
+#txt-item-faq p{
+	color:#656157 !important;;
 	}
 
 footer{
-	background-image:url('../images/bg-casas-dia.png');
+	background-image:url('../images/bg-casas-dia.png') !important;
 	}

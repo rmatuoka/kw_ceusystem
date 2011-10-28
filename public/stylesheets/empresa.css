@@ -33,7 +33,7 @@ article{
 	position:absolute;
 	font:Tahoma, Geneva, sans-serif;
 	font-size:14px;
-	color:#1e4552;
+	color:#fff;
 	width:530px;
 	top:50px;
 	left:20px;
@@ -87,6 +87,7 @@ article{
 	width:530px;
 	top:60px;
 	left:20px;
+	color:#fff;
 	}
 
 aside{
@@ -111,5 +112,5 @@ footer{
 	bottom: -1px;
 	width:100%;
 	left:0px;
-	top:1150px;
+	top:1150px  !important;
 	}

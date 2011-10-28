@@ -3,10 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<title>Ceu System : Cloud Solution <%=yield :title%></title>
-  	<script src="http://code.jquery.com/jquery-1.6.4.js"></script>
 	<%= javascript_include_tag "html5.js" %>
+	<%= javascript_include_tag "jquery.js" %>
+	<%= javascript_include_tag "modernizr.js" %>
+	<%= javascript_include_tag "video.js" %>
+	<%= stylesheet_link_tag "video-js" %>
 	<link rel="icon" type="image/png" href="/images/icon.ico" />
-	<script src="http://www.modernizr.com/downloads/modernizr-2.0.6.js"></script>
 	<%=yield :head%>
 		<%= stylesheet_link_tag "style" %>
 	

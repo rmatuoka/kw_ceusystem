@@ -130,6 +130,23 @@ article{
 	z-index:100;
 	top:180px;
 	left:182px;
+	width:596px;
+	height:344px;
+	background-image:url(../images/bg-video.png);
+	background-repeat:no-repeat;
+	background-position:center top;
+	}
+
+video{
+	border-radius: 40px; -webkit-border-radius: 40px; -moz-border-radius: 40px;
+	}
+
+#flash_fallback_1{
+	border-radius: 40px; -webkit-border-radius: 40px; -moz-border-radius: 40px;
+	}
+
+source{
+	border-radius: 40px; -webkit-border-radius: 40px; -moz-border-radius: 40px;
 	}
 
 #tit-naoentendeu{
@@ -155,6 +172,7 @@ footer{
 	width:100%;
 	left:0px;
 	z-index:1;
+	top:700px;
 	}
 
 #c_footer{

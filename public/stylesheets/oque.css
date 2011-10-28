@@ -2,6 +2,11 @@
 	position:absolute;
 	top:50px;
 	left:25px;
+	width:872px;
+	height:554px;
+	background-image:url(../images/img-oque.png);
+	background-position:left top;
+	background-repeat:no-repeat;
 	}
 
 #oque-conteudo{
@@ -45,6 +50,7 @@
 #box-1 h3{
 	margin-left:231px;
 	margin-top:-160px;
+	color:#9acbbf;
 	}
 
 #box-1 p{
@@ -61,6 +67,7 @@
 #box-2 h3{
 	margin-left:231px;
 	margin-top:-160px;
+	color:#9acbbf;
 	}
 
 #box-2 p{
@@ -78,6 +85,7 @@
 #box-3 h3{
 	margin-left:231px;
 	margin-top:-160px;
+	color:#9acbbf;
 	}
 
 #box-3 p{
@@ -94,6 +102,7 @@
 #box-4 h3{
 	margin-left:231px;
 	margin-top:-160px;
+	color:#9acbbf;
 	}
 
 #box-4 p{
@@ -122,5 +131,5 @@ footer{
 	bottom: -1px;
 	width:100%;
 	left:0px;
-	top:1329px;
+	top:1329px !important;
 	}

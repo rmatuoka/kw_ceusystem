@@ -137,5 +137,5 @@ footer{
 	bottom: -1px;
 	width:100%;
 	left:0px;
-	top:1000px;
+	top:1000px  !important;
 	}

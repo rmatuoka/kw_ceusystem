@@ -186,7 +186,7 @@ footer{
 	width:100%;
 	left:0px;
 	z-index:1;
-	top:1400px;
+	top:1400px  !important;
 	}
 
 
