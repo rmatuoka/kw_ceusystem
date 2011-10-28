@@ -53,6 +53,14 @@ body{
 	color:#656157 !important;
 	}
 
+#box-empresa2 h3{
+	color:#495d76 !important;
+	}
+
+#box-empresa2 ul li{
+	color:#656157 !important;
+	}
+
 #box-empresa3 p{
 	color:#656157 !important;
 	}
@@ -91,6 +99,22 @@ label{
 	filter: Shadow(Color=#FFFFFF, 	
 			Direction=135, 
 			Strength=3) !important;
+	}
+
+#tit-enviado h3{
+	color:#495d76 !important;
+	text-shadow:0px 5px 10px #FFFFFF !important;
+	filter: Shadow(Color=#FFFFFF, 	
+			Direction=135, 
+			Strength=3) !important;
+	}
+
+#txt-enviado p{
+	color:#656157 !important;
+	}
+
+#img-enviado{
+	background-image:url(../images/bg-enviado-dia.png);
 	}
 
 footer{

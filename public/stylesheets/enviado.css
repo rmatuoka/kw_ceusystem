@@ -1,0 +1,29 @@
+article{
+	padding-left:25%;
+	}
+	
+#tit-enviado h3{
+	font-family:correspe;
+	font-size:26px;
+	color:#FFFFFF;
+	font-variant:small-caps;
+	font-weight:normal;
+	text-shadow:0px 5px 20px #010101;
+	filter: Shadow(Color=#010101, 	
+			Direction=135, 
+			Strength=3);
+	}
+
+#txt-enviado p{
+	font-family:Tahoma, Geneva, sans-serif;
+	size:12pt;
+	color:#FFFFFF;
+	}
+
+#img-enviado{
+	width:413px;
+	height:390px;
+	background-image:url(../images/bg-enviado-noite.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	}

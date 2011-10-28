@@ -1,8 +1,7 @@
 header{
-	border:1px solid transparent;
+	border:1px solid red !important;
 	position:relative;
-	left:-450px;
-	*left:0px;
+	left:950px !important;
 	}
 
 article{

@@ -3,7 +3,7 @@
 <%end%>
 
 <%content_for :head do%>
-	<%= stylesheet_link_tag "contato" %>
+	<%= stylesheet_link_tag "enviado" %>
 	
 	<script type="text/javascript"> 
 		$(document).ready(function() {
@@ -24,21 +24,25 @@
 				$('#menu-servicos-over').mouseleave(function(){
 				$('#menu-servicos-over').fadeToggle("fast", "linear").addClass("hide");
 			})
-
-			$('#menu-contato-over').removeClass("hide");
+			
+			$('.menu-contato').mouseenter(function() {
+				$('#menu-contato-over').fadeToggle("fast", "linear").removeClass("hide");})
+				$('#menu-contato-over').mouseleave(function(){
+				$('#menu-contato-over').fadeToggle("fast", "linear").addClass("hide");
+			})
 
 		})
 	</script>
 <%end%>
 
 <article>
-	<div id='tit-contato'>
-    	<img src="/images/tit-contato.png" border="0">
-    </div>
-	Sua mensagem foi enviada com sucesso.<br/>
-	<br/>
-	Em breve entraremos em contato.
+	<div id='tit-enviado'>
+		<h3>Obrigado!</<h3>
+	</div>
+	<div id='txt-enviado'>
+		<p>Sua mensagem foi enviada com sucesso. Em breve entraremos em contato.</p>
+	</div>
+		<div id='img-enviado'>
+			
+		</div>
 </article>
-<aside>
-	<img src="/images/img-aside-contato.png" border="0">
-</aside>
