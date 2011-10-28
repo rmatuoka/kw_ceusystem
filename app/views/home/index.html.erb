@@ -80,6 +80,18 @@
 			$('#menu-contato-over').mouseleave(function(){
 			$('#menu-contato-over').fadeToggle("fast", "linear").addClass("hide");
 		})
+		
+		var horizontal = $(window).width();
+	    var vertical = $(window).height();
+	
+		if(vertical <= 900){
+			window.location.href = '/home_small';
+		}
+		else
+		{
+			
+		}
+		
 	})
 $(function(){
 	positionFooter(); 
