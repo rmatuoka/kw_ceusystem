@@ -11,6 +11,7 @@ KwCeusystem::Application.routes.draw do |map|
   resources :termos_de_uso
   resources :contato
   resources :works
+  resources :home_small
   
   root :to => "home#index"
   map.trabalhe_conosco "trabalhe_conosco", :controller => "works", :action => "new"
