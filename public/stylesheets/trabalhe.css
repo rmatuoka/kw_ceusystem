@@ -22,7 +22,7 @@ label{
 	font-family:correspe;
 	font-size:24px;
 	color:#FFF;
-	text-shadow:0px 5px 9px #010101;
+	text-shadow:0px 5px 20px #010101;
 	filter: Shadow(Color=#010101, 	
 			Direction=135, 
 			Strength=3);
@@ -59,7 +59,7 @@ textarea{
       position: relative;
       float: right;
       top: -68px;
-      /*opacity:0;
+      opacity:0;
       -moz-opacity:0;
       filter:alpha(opacity:0);*/
 	  border:0;

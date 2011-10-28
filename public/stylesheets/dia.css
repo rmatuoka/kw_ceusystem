@@ -81,6 +81,18 @@ article b{
 	color:#656157 !important;;
 	}
 
+input{
+	color:#656157 !important;;
+	}
+	
+label{
+	color:#495d76 !important;
+	text-shadow:0px 5px 10px #FFFFFF !important;
+	filter: Shadow(Color=#FFFFFF, 	
+			Direction=135, 
+			Strength=3) !important;
+	}
+
 footer{
 	background-image:url('../images/bg-casas-dia.png') !important;
 	}

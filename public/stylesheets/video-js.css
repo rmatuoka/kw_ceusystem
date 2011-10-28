@@ -20,7 +20,7 @@ video.video-js { background-color: #000; position: relative; padding: 0; border-
 .video-js-box .vjs-subtitles { color: #fff; font-size: 20px; text-align: center; position: absolute; bottom: 40px; left: 0; right: 0; }
 
 /* Fullscreen styles for main elements */
-.video-js-box.vjs-fullscreen { position: fixed; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: 1000; }
+.video-js-box.vjs-fullscreen { position: fixed; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: 1000;}
 .video-js-box.vjs-fullscreen video.video-js,
 .video-js-box.vjs-fullscreen .vjs-flash-fallback { position: relative; top: 0; left: 0; width: 100%; height: 100%; z-index: 1000; }
 .video-js-box.vjs-fullscreen img.vjs-poster { z-index: 1001; }
@@ -46,7 +46,7 @@ so you can upgrade to newer versions easier. */
 .video-js-box .vjs-controls {
   position: absolute; margin: 0; opacity: 0.85; color: #fff;
   display: none; /* Start hidden */
-  left: 0; right: 0; /* 100% width of video-js-box */ 
+  left: 15px; right: 0; /* 100% width of video-js-box */ 
   width: 100%;
   bottom: 0px; /* Distance from the bottom of the box/video. Keep 0. Use height to add more bottom margin. */
   height: 35px; /* Including any margin you want above or below control items */
@@ -80,7 +80,7 @@ so you can upgrade to newer versions easier. */
 .vjs-controls > div.vjs-progress-control   { left: 35px;  right: 165px; } /* Using left & right so it expands with the width of the video */
 .vjs-controls > div.vjs-time-control       { width: 75px; right: 90px;  } /* Time control and progress bar are combined to look like one */
 .vjs-controls > div.vjs-volume-control     { width: 50px; right: 35px;  }
-.vjs-controls > div.vjs-fullscreen-control { width: 25px; right: 5px;   }
+.vjs-controls > div.vjs-fullscreen-control { width: 25px; right: 5px; display:none;   }
 
 /* Removing curved corners on progress control and time control to join them. */
 .vjs-controls > div.vjs-progress-control {
