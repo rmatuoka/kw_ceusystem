@@ -45,14 +45,19 @@ input{
 	}
 
 textarea{
-	width:399px;
-	height:235px;
+	width:389px;
+	height:225px;
 	background-image:url('../images/bg-campo-txt.png');
 	background-repeat:no-repeat;
 	border:none;
 	background-color:transparent;
 	resize:none;
 	margin-right:-5px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#d7f0f6;
+	padding-left:10px;
+	padding-top:10px;
 	}
 
 aside{
