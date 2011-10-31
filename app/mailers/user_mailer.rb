@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default :from => "Desenvolvimento  <rmatuoka@korewa.com.br>"
+  default :from => "Ceu System  <noreply@ceusystem.com.br>"
   
   def contact(contact)
     @contato = contact
