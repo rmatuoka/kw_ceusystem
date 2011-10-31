@@ -74,7 +74,8 @@ textarea{
 	position: relative;
       float: right;
       top: -21px;
-      width: 597px;
+      width: 387px;
+	  padding-left:10px;
       background: url("../images/bg-campo-curri.png") no-repeat 99% 51%;
       cursor: default;
       background-color: transparent;
@@ -112,8 +113,8 @@ span{
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
 	color:#3d6164;
-	top:60px;
-	left:-270px;
+	top:-20px;
+	left:0px;
 	}
 
 aside{
