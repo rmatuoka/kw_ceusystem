@@ -27,3 +27,21 @@ article{
 	background-position:left top;
 	background-repeat:no-repeat;
 	}
+	
+footer{
+	width:100%;
+	height:271px;
+	background-image:url('../images/bg-casas-noite.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	display:block;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	color:#1e4551;
+	position: absolute;
+	bottom: 0 !important;
+	bottom: -1px;
+	width:100%;
+	left:0px;
+	top:550px  !important;
+}

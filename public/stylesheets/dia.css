@@ -90,9 +90,12 @@ article b{
 	}
 
 input{
-	color:#656157 !important;;
+	color:#656157 !important;
 	}
-	
+	textarea{
+		color:#656157 !important;
+		}
+
 label{
 	color:#495d76 !important;
 	text-shadow:0px 5px 10px #FFFFFF !important;
@@ -120,3 +123,8 @@ label{
 footer{
 	background-image:url('../images/bg-casas-dia.png') !important;
 	}
+
+.trabalhe_upload
+{
+	color:#495d76 !important;
+}
