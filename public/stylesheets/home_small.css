@@ -10,13 +10,13 @@ section{
 	position:absolute;
 	z-index:100;
 	left:0px;
-	top:100px;
+	top:50px;
 	}
 
 #tv-tablet{
 	position:absolute;
 	z-index:100;
-	top:50px;
+	top:25px;
 	left:450px;
 	width:458px;
 	height:266px;
@@ -28,6 +28,6 @@ section{
 #tit-naoentendeu-tablet{
 	position:absolute;
 	z-index:100;
-	top:330px;
+	top:300px;
 	left:520px;
 	}
