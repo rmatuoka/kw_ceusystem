@@ -171,6 +171,7 @@ footer{
 	width:100%;
 	left:0px;
 	z-index:1;
+	*top:700px;
 	}
 
 #c_footer{

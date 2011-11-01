@@ -65,7 +65,7 @@ textarea{
 	  border:0;
 	  left:100px;
 	  font-size: 400px;
-
+	  height:42px;
 }
 
 
@@ -91,7 +91,8 @@ input {
       font-size: 12px;
       color: #333;
       height: 42px;
-	  width:500px;
+	  width:490px;
+	  padding-left:10px;
       vertical-align: middle;
 }
 
