@@ -1,11 +1,5 @@
 <%content_for :head do%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<script src="javascripts/video.js" type="text/javascript" charset="utf-8"></script>
-
-  <script type="text/javascript">
-    VideoJS.setupAllWhenReady();
-  </script>
-  <link rel="stylesheet" href="stylesheets/video-js.css" type="text/css" media="screen" title="Video JS">
 <link rel="icon" 
       type="image/png" 
       href="/images/icon.ico" />
@@ -69,19 +63,7 @@ $(function(){
 		<img src="images/tit-oque.png" border="0">
 	</div>
 	<div id='tv'>
-		<div class='video-js-box'>
-			<video id="example_video_1" class="video-js" width="507" height="290" controls="controls" preload="auto" poster="http://www.ceusystem.com.br/images/img-bg-video.png">
-			  <source src="http://www.ceusystem.com.br/videos/video-final.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-			  <object id="flash_fallback_1" class="vjs-flash-fallback" width="507" height="290" type="application/x-shockwave-flash"
-				data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
-				<param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
-				<param name="allowfullscreen" value="true" />
-				<param name="flashvars" value='config={"playlist":["http://www.ceusystem.com.br/images/img-bg-video.png", {"url": "http://www.ceusystem.com.br/videos/video-final.mp4","autoPlay":false,"autoBuffering":true}]}' />
-				<img src="http://www.ceusystem.com.br/images/img-bg-video.png" width="507" height="290" alt="Poster Image"
-				  title="No video playback capabilities." />
-			  </object>
-			</video>
-		</div>
+		<iframe style='margin-top:47px;' src="http://player.vimeo.com/video/31445247?title=0&amp;byline=0&amp;portrait=0" width="500" height="285" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
 	</div>
 	<div id='tit-naoentendeu'>
 		<%=link_to(image_tag("tit-naoentendeu.png"), oque_e_index_path)%>

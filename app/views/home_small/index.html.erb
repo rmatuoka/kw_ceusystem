@@ -1,58 +1,4 @@
 <%content_for :head do%>
-<script type="text/javascript">
-    // Must come after the video.js library
-
-    // Add VideoJS to all video tags on the page when the DOM is ready
-    VideoJS.setupAllWhenReady();
-
-    /* ============= OR ============ */
-
-    // Setup and store a reference to the player(s).
-    // Must happen after the DOM is loaded
-    // You can use any library's DOM Ready method instead of VideoJS.DOMReady
-
-    /*
-    VideoJS.DOMReady(function(){
-      
-      // Using the video's ID or element
-      var myPlayer = VideoJS.setup("example_video_1");
-      
-      // OR using an array of video elements/IDs
-      // Note: It returns an array of players
-      var myManyPlayers = VideoJS.setup(["example_video_1", "example_video_2", video3Element]);
-
-      // OR all videos on the page
-      var myManyPlayers = VideoJS.setup("All");
-
-      // After you have references to your players you can...(example)
-      myPlayer.play(); // Starts playing the video for this player.
-    });
-    */
-
-    /* ========= SETTING OPTIONS ========= */
-
-    // Set options when setting up the videos. The defaults are shown here.
-
-    /*
-    VideoJS.setupAllWhenReady({
-      controlsBelow: false, // Display control bar below video instead of in front of
-      controlsHiding: true, // Hide controls when mouse is not over the video
-      defaultVolume: 0.85, // Will be overridden by user's last volume if available
-      flashVersion: 9, // Required flash version for fallback
-      linksHiding: true // Hide download links when video is supported
-    });
-    */
-
-    // Or as the second option of VideoJS.setup
-    
-    /*
-    VideoJS.DOMReady(function(){
-      var myPlayer = VideoJS.setup("example_video_1", {
-        // Same options
-      });
-    });
-    */
-</script>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <%= stylesheet_link_tag "home_small" %>
 <link rel="icon" 
@@ -111,23 +57,7 @@ $(function(){
 		<img src="images/tit-oque-tablet.png" border="0">
 	</div>
 	<div id='tv-tablet'>
-		<div class="video-js-box">
-			<!-- Using the Video for Everybody Embed Code http://camendesign.com/code/video_for_everybody -->
-			<video id="example_video_1" class="video-js" width="366" height="208" controls="controls" preload="auto" poster="http://www.ceusystem.com.br/images/img-bg-video.png">
-			  <source src="http://www.ceusystem.com.br/videos/video-final.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-			  <!-- Flash Fallback. Use any flash video player here. Make sure to keep the vjs-flash-fallback class. -->
-			  <object id="flash_fallback_1" class="vjs-flash-fallback" width="366" height="208" type="application/x-shockwave-flash"
-				data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
-				<param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
-				<param name="allowfullscreen" value="true" />
-				<param name="flashvars" value='config={"playlist":["imagens/logo.png", {"url": "http://www.ceusystem.com.br/videos/video-final.mp4","autoPlay":false,"autoBuffering":true}]}' />
-				<!-- Image Fallback. Typically the same as the poster image. -->
-				<img src="http://www.ceusystem.com.br/imagens/logo.png" width="366" height="208" alt="Poster Image"
-				  title="No video playback capabilities." />
-			  </object>
-			</video>
-			<!-- Download links provided for devices that can't play video in the browser. -->
-		  </div>
+		<iframe style='margin-top:25px;' src="http://player.vimeo.com/video/31445247?title=0&amp;byline=0&amp;portrait=0" width="368" height="210" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
 	</div>
 	<div id='tit-naoentendeu-tablet'>
 		<%=link_to(image_tag("tit-naoentendeu-tablet.png"), oque_e_index_path)%>
