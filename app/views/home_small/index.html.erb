@@ -26,12 +26,12 @@
 			$('#menu-contato-over').mouseleave(function(){
 			$('#menu-contato-over').fadeToggle("fast", "linear").addClass("hide");
 		})
-		
+
 		var horizontal = $(window).width();
 	    var vertical = $(window).height();
-	
+
 		if(vertical <= 900){
-			
+
 		}
 		else
 		{
@@ -57,27 +57,7 @@ $(function(){
 		<img src="images/tit-oque-tablet.png" border="0">
 	</div>
 	<div id='tv-tablet'>
-<<<<<<< HEAD
 		<iframe style='margin-top:25px;' src="http://player.vimeo.com/video/31445247?title=0&amp;byline=0&amp;portrait=0" width="368" height="210" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
-=======
-		<div class="video-js-box">
-			<!-- Using the Video for Everybody Embed Code http://camendesign.com/code/video_for_everybody -->
-			<video id="example_video_1" class="video-js" width="366" height="208" controls="controls" preload="auto" poster="images/img-bg-video.png">
-			  <source src="videos/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-			  <!-- Flash Fallback. Use any flash video player here. Make sure to keep the vjs-flash-fallback class. -->
-			  <object id="flash_fallback_1" class="vjs-flash-fallback" width="366" height="208" type="application/x-shockwave-flash"
-				data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
-				<param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
-				<param name="allowfullscreen" value="true" />
-				<param name="flashvars" value='config={"playlist":["imagens/logo.png", {"url": "videos/video.mp4","autoPlay":false,"autoBuffering":true}]}' />
-				<!-- Image Fallback. Typically the same as the poster image. -->
-				<img src="imagens/logo.png" width="366" height="208" alt="Poster Image"
-				  title="No video playback capabilities." />
-			  </object>
-			</video>
-			<!-- Download links provided for devices that can't play video in the browser. -->
-		  </div>
->>>>>>> Zaba
 	</div>
 	<div id='tit-naoentendeu-tablet'>
 		<%=link_to(image_tag("tit-naoentendeu-tablet.png"), oque_e_index_path)%>
