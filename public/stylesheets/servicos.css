@@ -108,7 +108,7 @@ article b{
 
 #box-office{
 	position:absolute;
-	top:1050px;
+	top:400px;
 	left:147px;
 	}
 	
@@ -138,5 +138,5 @@ footer{
 	bottom: -1px;
 	width:100%;
 	left:0px;
-	top:1329px  !important;
+	top:859px  !important;
 	}
